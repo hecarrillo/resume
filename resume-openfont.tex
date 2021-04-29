@@ -1,0 +1,199 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.2 (16/9/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+%
+
+\documentclass[]{resume-openfont}
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+\usepackage{fontawesome}
+\usepackage{setspace}
+
+\pagestyle{fancy}
+\fancyhf{}
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{Hector}{Carrillo}{ \urlstyle{same}\\
+\href{mailto:he.carrillo.e@gmail.com}{he.carrillo.e@gmail.com} | +52 1 5568058775 | \href{mailto:hcarrilloe2000@alumno.ipn.mx}{hcarrilloe2000@alumno.ipn.mx}}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education}
+
+\subsection{Instituto Politécnico\\ Nacional}
+\descript{B.A.Sc in Computer Engineering}
+\location{Jan 2021 - May 2025 | Mexico City}
+Computer Science College (ESCOM) \\
+\sectionsep
+
+\subsection{University of \\ British Columbia}
+\descript{B.Sc. Computer Science}
+\location{Sep 2018 - Dec 2019 | Vancouver, BC}
+\sectionsep
+
+\subsection{Universidad Panamericana \\ High School}
+\location{Grad. May 2018|  Mexico City, Mexico}
+Physics and Mathematics Emphasis
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Links}
+\href{https://www.linkedin.com/in/hecarrilloe/}{\bf \faLinkedinSquare} \quad \href{https://github.com/hecarrillo}{\bf \faGithubAlt} \quad \href{https://ac2oubco.wixsite.com/ac2o/people}{\bf AC2O Project}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Coursework}
+
+\subsection{Undergraduate}
+Principles of Software Construction  \\
+Introduction to Microcomputers \\
+Computer Programming (OOP with Java)\\
+Linear Algebra \\
+Calculus
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+\subsection{Technical}
+\location{Experienced or worked with:}
+Java (2 yrs / Academic Use) \textbullet{} Python (1 yr, Project Application) \textbullet{} GraphQL(Professional Use)
+\textbullet{} Javascript (Node.js env, 1 yr, Professional Use)
+\textbullet{} AWS (Professional Use)\textbullet{} Git (2 yrs) \textbullet{} HTML/CSS  \\
+\location{Familiar:}
+\LaTeX \textbullet{} MySQL(Academic Use)
+\textbullet{} React.js (Project Application)   \textbullet{} MATLAB (Focused on Machine Learning / On-ramp certificate)\textbullet{} C++ (Competitive Programming Use)
+ \sectionsep\\
+\subsection{Soft skills}
+
+Problem Solving (HackerRank Intermediate badge) \textbullet{} Creative Solutions \textbullet{} Fast-paced learner
+
+\sectionsep\\
+
+
+\subsection{Languages}
+
+Spanish (Native)\\
+English (Proficient)\\
+German  (Beginner)\\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.66\textwidth}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Professional Experience}
+
+
+\runsubsection{Konfio}
+\descript{| Software Engineering Intern }
+\location{March 2020 – August 2020 | Miguel Hidalgo, Mexico}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Implemented and optimized web scrapers using JavaScript (Node.js environment) deployed to AWS for the data mining division.
+\item Improved reliability of the team´s API increasing uptime from 60\% - 70\% to ~95\% on average by creating backup mechanisms such as circuit breakers and cache optimization.
+\end{tightemize}
+
+\sectionsep
+
+\runsubsection{Arbore Pruina}
+\descript{| Software Engineering Intern }
+\location{January 2021 – Present | Mexico}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Working in a new startup company (founded May 2020) to implement and design new AWS back-end architecture.
+\item Implementing REST APIs to provide various services for the company such as authentication, payments and email sending endpoints.
+\item Designed, deployed and maintaining a NoSQL Database using DynamoDB (AWS) with GraphQL endpoints. It has been tested with 100+ people in the beta phase of the project providing reliable and secure access (using Cognito authentication) to data.
+\end{tightemize}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Activities & Projects
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Activities | Projects}
+\runsubsection{Atmospheric Cloud Chamber of The Okanagan}
+\descript{| Software and Electronics Lead}
+\location{Dec 2018 – Sep 2019 | Kelowna, BC}
+Responsible for developing a control and telemetry system on board of a physics experiment using a RaspberryPi and Python to handle the automation and sensor data retrieval. Launched to the stratosphere in partnership with the Canadian Space Agency and CNES France.
+\sectionsep
+
+\runsubsection{Heat Robotics}
+\descript{| Vice President and Founder}
+\location{Jan 2019 - May 2019 | Kelowna, BC}
+Founder of the first software and robotics team of UBC Okanagan campus. Responsible for recieving more than 4000 CAD in funding to operate the team and helping 15+ students fund their trip to the UBC Vancouver Hackathon. This club was the precursor from the now Computer Science Union Club on the same campus.
+\sectionsep
+
+\runsubsection{Panteras 2283 Robotics}
+\descript{| Member and Programming Captain}
+\location{Aug 2015 - May 2018 | Mexico City}
+Responsible for developing control and automation software for the FRC Competition Robot using LABVIEW deployed to NI roboRIO.  \\ National selected to represent Mexico in the FIRST Global Challenge held in Washington D.C. as member of the programming team.\\ National selected for the 4x4 Land Rover Challenge held in Abu Dhabi, U.A.E. as Design and Engineering lead.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     AWARDS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Awards}
+2019 Canadian Stratospheric Balloon Experiment Design Challenge Winner Project \\
+\textbullet{} Canadian Space Agency, Centre National d`études Spatiales \& SEDS Canada \\
+2018 Outstanding International Student Award\\
+\textbullet{} University of British Columbia\\
+2018 National Robotics Champions\\
+\textbullet{} FIRST Robotics Competition\\
+2017 Zhang Heng Award for Engineering Design, 3rd Place\\
+\textbullet{} FIRST Global Competition
+
+\sectionsep
+
+
+\end{minipage}
+\end{document}  \documentclass[]{article}
